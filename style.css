@@ -1,0 +1,69 @@
+button {
+    height: 30px;
+    width: auto;
+    font-size:medium;
+    font-style: bold;
+    margin-right:50px;
+
+}
+
+div{
+    height: 25px;
+    width: 550px;
+    font-size:large;
+    text-align: center;
+    font-style: bold;
+    margin-right:50px;
+    border:dashed;
+    margin:10px;
+}
+
+input {
+    margin-left:5px;
+    margin-right:20px;
+
+}
+
+body {
+    background-color: rgb(133, 228, 204);
+
+}
+
+h1 {
+    color: rgb(223, 41, 62);
+    text-align:center;
+}
+
+p {
+    margin-right:15px;
+    /* float:left; */
+    border:solid;
+    
+
+    background-color: rgb(102, 233, 156);
+}
+
+
+
+#par {
+    width:auto;
+    word-wrap:break-word;
+    padding:5px;
+}
+
+#myAddress {
+    margin-right: 100px;
+
+}
+
+#ETHToSend {
+    background-color: bisque;
+    border: solid;
+    padding:5px;
+
+}
+
+.wallet {
+    margin-right: 15px;
+    /* font-weight:bold; */
+}
