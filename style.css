@@ -24,26 +24,18 @@ input {
 
 }
 
-body {
-    background-color: rgb(133, 228, 204);
-
-}
-
-h1 {
-    color: rgb(223, 41, 62);
+h1 , h2 {
+    color: rgb(9, 32, 6);
     text-align:center;
 }
 
 p {
     margin-right:15px;
+    padding-bottom: 5px;
     /* float:left; */
-    border:solid;
-    
-
-    background-color: rgb(102, 233, 156);
+    /* background-color: rgb(50, 226, 82); */
+    border-bottom: solid;
 }
-
-
 
 #par {
     width:auto;
@@ -57,13 +49,15 @@ p {
 }
 
 #ETHToSend {
-    background-color: bisque;
-    border: solid;
-    padding:5px;
-
+    background-color: rgb(133, 243, 140);
+    padding:10px;
 }
 
-.wallet {
-    margin-right: 15px;
-    /* font-weight:bold; */
+
+label {
+    margin-right: 25px;
+}
+
+form input {
+    width: 350px;
 }
