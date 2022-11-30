@@ -10,29 +10,35 @@
     
 </head>
 <body>
-    <h1>Batch ETH Transfer (up to 10 wallets each time) </h1>
+    <h1>Batch ETH Transfer Tool </h1>
+    <h2>up to 10 wallets each time, free to use for everyone</h2><br>
 
-    <p>
+    <p >
         <button onclick="connectMetamask()">Connect your wallet</button>
+        
         <span id="myAddress">Your Address is:</span> 
-    </p>
+    </p><br>
 
     <p>
         <form>
             <label for="ETHAddress1">ETH Receiver-1:</label> <input type = "text" name = "array2[]" id="ETHAddress1" value = "" />
-            <label for="ETHAddress2">ETH Receiver-2:</label> <input type = "text" name = "array2[]" id="ETHAddress2" value = "" />
+            <label for="ETHAddress2">ETH Receiver-2:</label> <input type = "text" name = "array2[]" id="ETHAddress2" value = "" /><br><br>
             <label for="ETHAddress3">ETH Receiver-3:</label> <input type = "text" name = "array2[]" id="ETHAddress3" value = "" />
-            <label for="ETHAddress4">ETH Receiver-4:</label> <input type = "text" name = "array2[]" id="ETHAddress4" value = "" />
-            <label for="ETHAddress5">ETH Receiver-5:</label> <input type = "text" name = "array2[]" id="ETHAddress5" value = "" /><br><br>
-            <label for="ETHAddress6">ETH Receiver-6:</label> <input type = "text" name = "array2[]" id="ETHAddress6" value = "" />
+            <label for="ETHAddress4">ETH Receiver-4:</label> <input type = "text" name = "array2[]" id="ETHAddress4" value = "" /><br><br>
+            <label for="ETHAddress5">ETH Receiver-5:</label> <input type = "text" name = "array2[]" id="ETHAddress5" value = "" />
+            <label for="ETHAddress6">ETH Receiver-6:</label> <input type = "text" name = "array2[]" id="ETHAddress6" value = "" /><br><br>
             <label for="ETHAddress7">ETH Receiver-7:</label> <input type = "text" name = "array2[]" id="ETHAddress7" value = "" />
-            <label for="ETHAddress8">ETH Receiver-8:</label> <input type = "text" name = "array2[]" id="ETHAddress8" value = "" />
+            <label for="ETHAddress8">ETH Receiver-8:</label> <input type = "text" name = "array2[]" id="ETHAddress8" value = "" /><br><br>
             <label for="ETHAddress9">ETH Receiver-9:</label> <input type = "text" name = "array2[]" id="ETHAddress9" value = "" />
             <label for="ETHAddress10">ETH Receiver-10:</label> <input type = "text" name = "array2[]" id="ETHAddress10" value = "" /><br><br>
         </form>
-        <span id="ETHToSend"><label for="ETHAmount">ETH Amount to send in total:</label> <input type="text" id="ETHAmount">
-        <button onclick="sendETH()">sendETH</button> (Note: Each address will receive equal amount of ETH divided by the total ETH sent.)</span>
-    </p>
+
+        <span id="ETHToSend">
+            <label for="ETHAmount">ETH Amount to send in total:</label> <input type="text" id="ETHAmount">
+            <button onclick="sendETH()">sendETH</button> (Note: Each address will receive equal amount of ETH divided by the total ETH sent.)
+        </span>
+
+    </p><br><br>
 
     <p id="par">Wallets to receive ETH: </p>
 
